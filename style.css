@@ -23,3 +23,12 @@ body {
   margin-top: 50px;
   font-weight: 100;
 }
+/* Colorize-zoom Container */
+.img-hover-zoom--colorize img {
+  transition: transform 0.5s, filter 1.5s ease-in-out;
+}
+
+/* The Transformation */
+.img-hover-zoom--colorize:hover img {
+  transform: scale(1.1);
+}
